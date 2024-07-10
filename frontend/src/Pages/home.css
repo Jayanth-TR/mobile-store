@@ -1,0 +1,119 @@
+/* styles.css */
+@import url("https://use.typekit.net/klu1gzc.css");
+
+/* font-family: "climate-crisis-variable", sans-serif;
+font-variation-settings: "YEAR" 1979; */
+/* font-family: "aboreto", sans-serif;
+font-weight: 400;
+font-style: normal; */
+.container-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .card-container{
+    display: flex;
+    justify-content: center;
+    margin: 30px 10px;
+    padding: 10px;
+  }
+  .card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.542);
+    transition: box-shadow 0.3s ease-in-out;
+    margin: 20px;
+    padding: 10px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card h1 {
+    font-size: 25px;
+    margin: 0.5em 0;
+  }
+  
+  .card p {
+    color: #888;
+    font-size: 1em;
+    margin: 0.5em 0;
+  }
+  
+  .card .price {
+    color: #000;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  .home-button{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  .home-button:hover{
+    transform: translateY(-3px);
+  }
+  .cart-btn1{
+    width: 100px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(0, 255, 51, 0.631);
+    color: #000;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  .cart-btn1:hover{
+    color: white;
+    background-color: green;
+    transform: translateY(-3px);
+  }
+  .order-btn1{
+    width: 100px;
+    font-size: 15px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  .order-btn1:hover{
+    background-color: rgb(255, 136, 0) ;
+    color: #000;
+  }
+  .product{
+    display: flex;
+    justify-content: center;
+    margin: 20px 10px;
+    gap: 30px;
+  }
+  .offer-container{
+    margin: 20px 10px;
+    padding: 10px;
+    background: #888;
+  }
+  .offer{
+    text-transform: capitalize;
+    font-family: "castoro-titling", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    text-align: center;
+    letter-spacing: 20px;
+    /* font-family: "aboreto", sans-serif;
+    font-weight: 400;
+    font-style: normal; */
+  }
+  /* font-family: "castoro-titling", sans-serif;
+    font-weight: 400;
+    font-style: normal; */

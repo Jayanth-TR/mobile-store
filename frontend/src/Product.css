@@ -1,0 +1,7 @@
+
+.product-card img{
+    border-radius: 5px;
+}
+.product-card:hover{
+    cursor: pointer;
+}

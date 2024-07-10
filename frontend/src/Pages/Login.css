@@ -1,0 +1,76 @@
+@import url("https://use.typekit.net/klu1gzc.css");
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-image: url('../images/login-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container {
+    background: rgba(59, 78, 103, 0.6);
+    color: #feffdf;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 20px;
+    /* box-shadow: 0 0 0 10px #fff; */
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.login-form label {
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #feffdf;
+}
+
+.login-form input {
+    padding: 10px 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: transparent;
+    color: #feffdf;
+}
+
+.login-form input::placeholder {
+    color: white;
+}
+
+.login-form button {
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background: #feffdf;
+    color: #070f4e;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.login-header h1 {
+    font-family: "castoro-titling", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #feffdf;
+    font-size: 60px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
