@@ -1,6 +1,23 @@
+
+  
+
 {
+  "name": "your-project",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npm run start:frontend && npm run start:backend",
+    "build": "npm run build:frontend && npm run build:backend",
+    "test": "npm run test:frontend && npm run test:backend",
+    "start:frontend": "cd frontend && npm start",
+    "build:frontend": "cd frontend && npm run build",
+    "test:frontend": "cd frontend && npm test",
+    "start:backend": "cd express-backend && npm start",
+    "build:backend": "cd express-backend && your-build-command-here",
+    "test:backend": "cd express-backend && npm test"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.5.2",
     "dotenv": "^16.4.5"
   }
+ 
 }
